@@ -2,9 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 //pages
-
-import PointOfSales from "./features/point-of-sales/point-of-sales";
-import Inventory from "./features/inventory/inventory";
+import PointOfSales from "./pages/point-of-sales";
+import Inventory from "./pages/inventory";
 
 const queryClient = new QueryClient({
     defaultOptions: {

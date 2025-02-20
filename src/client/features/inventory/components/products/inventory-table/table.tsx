@@ -31,6 +31,7 @@ import {
 } from "@/components/ui/table";
 
 import { CreateProduct } from "../create-product";
+
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[];
     data: TData[];

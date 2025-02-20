@@ -1,10 +1,11 @@
-import { Header } from "./components/header";
-import { CategoryList } from "../point-of-sales/components/category/category-list";
-import { CreateCategory } from "./components/create-category/create-category";
-import { InventoryTable } from "./components/products/inventory-table/table";
-import { columns } from "./components/products/inventory-table/columns";
+import Header from "@features/inventory/components/header";
+import CategoryList from "@features/point-of-sales/components/category/category-list";
+import CreateCategory from "@features/inventory/components/create-category/create-category";
+import { GridProducts } from "@features/inventory/components/products/inventory-grid-view.tsx/gridview-products";
+
 //simport { InventoryData } from "../point-of-sales/lib/fake-data";
-import { GridProducts } from "./components/products/inventory-grid-view.tsx/gridview-products";
+import { InventoryTable } from "@features/inventory/components/products/inventory-table/table";
+import { columns } from "@features/inventory/components/products/inventory-table/columns";
 
 export default function Inventory() {
     return (

@@ -17,7 +17,8 @@
         "baseUrl": ".",
         "paths": {
             "@/*": ["src/client/*"],
-            "@components/*": ["src/client/components/*"]
+            "@components/*": ["src/client/components/*"],
+            "@features/*": ["src/client/features/*"]
         }
     },
     "include": ["src"]

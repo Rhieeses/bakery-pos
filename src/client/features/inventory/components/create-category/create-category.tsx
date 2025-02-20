@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dialog";
 import { FormCategory } from "./form-category";
 
-export const CreateCategory = () => {
+export default function CreateCategory() {
     return (
         <Dialog>
             <DialogTrigger asChild>
@@ -40,4 +40,4 @@ export const CreateCategory = () => {
             </DialogContent>
         </Dialog>
     );
-};
+}

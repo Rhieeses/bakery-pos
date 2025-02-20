@@ -4,7 +4,7 @@ import { CloseMenu } from "../../../components/custom/sidebar/close-menu";
 import { SidebarMenu } from "../../../components/custom/sidebar/sidebar-menu";
 import { Search } from "lucide-react";
 
-export function Header() {
+export default function Header() {
     return (
         <header className="p-2">
             <nav className="mt-2 flex items-center justify-between gap-2">

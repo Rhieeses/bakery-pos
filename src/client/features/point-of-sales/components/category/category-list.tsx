@@ -2,7 +2,7 @@ import { categories } from "../../lib/fake-data";
 import { CategoryCard } from "./category-card";
 import { useRef, useState } from "react";
 
-export function CategoryList() {
+export default function CategoryList() {
     const scrollRef = useRef<HTMLDivElement>(null);
     const [isDragging, setIsDragging] = useState<boolean>(false);
     const [startX, setStartX] = useState<number>(0);
